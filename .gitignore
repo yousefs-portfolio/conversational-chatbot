@@ -1,0 +1,173 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm
+.yarn
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+.claude/
+.specify/
+specs/
+Conversational AI Agent with Tool Use & Memory.md
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Docker
+.dockerignore
+
+# Logs
+logs/
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Next.js
+.next/
+out/
+.vercel
+
+# Production
+/build
+/dist
+
+# Misc
+*.pem
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Uploads and temporary files
+uploads/
+/tmp/
+*.tmp
+*.temp
+/backend/uploads/
+/backend/tmp/
+
+# Audio files
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.flac
+
+# Document files (for testing)
+test_*.pdf
+test_*.docx
+test_*.txt
+sample_*.pdf
+sample_*.docx
+
+# Image files (for testing)
+test_*.jpg
+test_*.png
+test_*.gif
+sample_*.jpg
+sample_*.png
+
+# Jupyter notebooks
+*.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Test outputs
+test_implementation.py
+backend/test_implementation.py
+
+# Alembic
+alembic.ini
+
+# Backend specific
+backend/*.log
+backend/logs/
+backend/.pytest_cache/
+backend/htmlcov/
+backend/.coverage
+
+# Frontend specific
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+frontend/.env.local
+
+# Docker volumes
+postgres_data/
+redis_data/
+backend_logs/
